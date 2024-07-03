@@ -11,6 +11,10 @@ nav_order: 3
 
 - Invited tutorial session at <a href="https://qd-uki.co.uk/nanomegas-workshop-2024/">NanoMEGAS Workshop 2024</a>, Materials Department, University of Cambridge – Advanced Applications with open source codes from Cambridge, 5th Jun. 2024
 
+- Invited talk at <a href="https://mse.site.nthu.edu.tw/?Lang=en">Department of Materials Science</a>, National Tsing Hua University, Taiwan, 29th Feb. 2024
+
+- Invited talk at <a href="http://hemc.mse.nthu.edu.tw/en/">High Entropy Materials Centre</a>, National Tsing Hua University, Taiwan, 11th Jan. 2024
+
 - Invited tutorial session at <a href="https://excite-network.eu/community/scientific-partners/">EXCITE Consortium, Granada, Spain</a> – 3 hours hands-on tutorial: “Sigma: Spectral interpretation using gaussian mixtures and autoencoder”, 3rd Nov. 2023
 
 - Invited talk at <a href="https://profiles.imperial.ac.uk/samuel.cooper">Dr. Samuel Cooper’s Group</a>, Imperial College London - 45 min talk: “Machine learning in electron microscopy”, 6th Jun. 2023

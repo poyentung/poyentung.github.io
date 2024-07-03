@@ -2,11 +2,11 @@
 layout: about
 title: About
 permalink: /
-subtitle: Intersection of AI and Materials Science.
+subtitle: Physics-informed AI for Challenges in Materials Science.
 
 profile:
   align: left
-  image: poyentung2.jpg
+  image: #poyentung.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
@@ -18,8 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a [Research Associate](https://www.esc.cam.ac.uk/staff/dr-po-yen-tung) working in [Materials](https://www.emg.msm.cam.ac.uk/) & [Earth Sciences](https://www.esc.cam.ac.uk/) Department at the University of Cambridge. I am affiliated with [Peterhouse](https://www.pet.cam.ac.uk/), the university’s oldest college. My academic interests span a broad range of topics, primarily situated at the intersection of physical sciences, materials discovery and machine learning.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<!-- I obtained my PhD in Materials Science from [Max Planck Instuitute for Sustainable Materials](https://www.mpie.de/en), where I was supervised by [Prof. Dirk Raabe](https://www.mpie.de/person/43164/2763408) and [Dr Michael Herbig](https://www.mpie.de/person/43136). My first half of PhD contres around sustainable materials, extending the lifespan of engineering materials and contributing the sustainable development of energy. -->
