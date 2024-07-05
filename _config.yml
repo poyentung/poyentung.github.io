@@ -310,7 +310,7 @@ display_categories: ["sigma"] # these categories will be displayed on the front 
 
 scholar:
   last_name: [Tung]
-  first_name: [Po-Yen, P.-Y.]
+  first_name: [Po-Yen, P.-Y., P-Y]
 
   style: apa
   locale: en
