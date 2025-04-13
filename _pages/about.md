@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Physics-informed AI for Challenges in Materials Science.
+subtitle: "Materials on a Data Diet: Searching for the Best with AI and Minimal Input"
 
 profile:
   align: right
@@ -18,8 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I'm a [Research Associate](https://www.esc.cam.ac.uk/staff/dr-po-yen-tung) working in both [Materials](https://www.emg.msm.cam.ac.uk/) & [Earth Sciences](https://www.esc.cam.ac.uk/) Departments at the University of Cambridge. I'm chuffed to bits to be affiliated with [Peterhouse](https://www.pet.cam.ac.uk/), the oldest college at the university - it’s quite a special place! 
+I'm a Machine Learning Scientist at [MatNex](https://www.matnex.ai), where I collaborate with a brilliant team of scientists to develop AI-driven methods that accelerate materials discovery — all with the goal of enabling a net-zero future. I lead the development of our discovery pipeline, focusing on active learning strategies for efficient exploration.
 
-My interests are pretty wide-ranging, but I’m especially excited by anything that combines physical sciences, the hunt for new materials, and machine learning. Always up for a chat about these topics, so don’t hesitate to get in touch!
+Before this, I was a Postdoc at [Cambridge](https://www.cam.ac.uk) from 2021 to 2024. I had the pleasure of being affiliated with [Peterhouse](https://www.pet.cam.ac.uk/), the university’s oldest college — a place steeped in history and charm. I got my PhD in Materials Science at [Max Planck Instuitute](https://www.mpie.de/en) under the supervision of [Prof. Dirk Raabe](https://www.mpie.de/person/43164/2763408).
+
+Some of my most notable work before joining MatNex includes the development of DANTE, a general search framework designed to navigate high-dimensional spaces with minimal data. I also co-led the creation of active learning pipelines for high-entropy alloys in 2022, which contributed to a rapid discovery of 2 Invar alloys in just 3 months — published in [Science](https://www.science.org/doi/full/10.1126/science.abo4940). 
+
 
 <!-- I obtained my PhD in Materials Science from [Max Planck Instuitute for Sustainable Materials](https://www.mpie.de/en), where I was supervised by [Prof. Dirk Raabe](https://www.mpie.de/person/43164/2763408) and [Dr Michael Herbig](https://www.mpie.de/person/43136). My first half of PhD contres around sustainable materials, extending the lifespan of engineering materials and contributing the sustainable development of energy. -->

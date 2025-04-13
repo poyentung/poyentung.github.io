@@ -41,7 +41,7 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
-    {% if site.announcements.enabled %}
+    {% if site.announcements.enabled and page.news %}
       <br>
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
