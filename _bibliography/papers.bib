@@ -1,32 +1,16 @@
 ---
 
-@article{wei2024derivative,
-  author_array={4},
-  title={Derivative-free tree optimization for complex systems},
-  author={Wei*, Ye and Peng*, Bo and Xie*, Ruiwen and Chen*, Yangtao and Qin*, Yu and Wen*, Peng and Bauer*, Stefan and Tung*, Po-Yen},
-  journal={arXiv preprint arXiv:2404.04062},
+@article{wei2024deep,
+  abbr={Under Review},
+  title={Deep active learning for complex systems},
+  author={Wei*, Ye and Peng*, Bo and Xie*, Ruiwen and Chen*, Yangtao and Qin*, Yu and Wen*, Peng and Bauer*, Stefan and Tung*, Po-Yen and Raabe, Dierk},
+  journal={Under review in Nature Computational Science},
   year={2024},
   annotation={* Equally contributed},
-  html={https://arxiv.org/abs/2404.04062},
+  html={https://www.researchsquare.com/article/rs-5434645/v1},
   selected = {true},
-  preview={dots-workflow.png},
-  abstract={A tremendous range of design tasks in materials, physics, and biology can be formulated as finding the optimum of an objective function depending on many parameters without knowing its closed-form expression or the derivative. Traditional derivative-free optimization techniques often rely on strong assumptions about objective functions, thereby failing at optimizing non-convex systems beyond 100 dimensions. Here, we present a tree search method for derivative-free optimization that enables accelerated optimal design of high-dimensional complex systems. Specifically, we introduce stochastic tree expansion, dynamic upper confidence bound, and short-range backpropagation mechanism to evade local optimum, iteratively approximating the global optimum using machine learning models. This development effectively confronts the dimensionally challenging problems, achieving convergence to global optima across various benchmark functions up to 2,000 dimensions, surpassing the existing methods by 10- to 20-fold. Our method demonstrates wide applicability to a wide range of real-world complex systems spanning materials, physics, and biology, considerably outperforming state-of-the-art algorithms. This enables efficient autonomous knowledge discovery and facilitates self-driving virtual laboratories. Although we focus on problems within the realm of natural science, the advancements in optimization techniques achieved herein are applicable to a broader spectrum of challenges across all quantitative disciplines.}
-}
-
-@article{tung2023sigma,
-  title={SIGMA: Spectral interpretation using gaussian mixtures and autoencoder},
-  author={Tung, Po-Yen and Sheikh, Hassan and Ball, Matthew and Nabiei, Farhang and Harrison, Richard},
-  journal={Geochemistry, Geophysics, Geosystems},
-  volume={24},
-  number={1}, 
-  pages={e2022GC010530},
-  year={2023},
-  publisher={Wiley Online Library},
-  html={https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022GC010530},
-  code={https://github.com/poyentung/sigma},
-  selected = {true},
-  preview={sigma-demo.gif},
-  abstract={Identification of unknown micro- and nano-sized mineral phases is commonly achieved by analyzing chemical maps generated from hyperspectral imaging data sets, particularly scanning electron microscope—energy dispersive X-ray spectroscopy (SEM-EDS). However, the accuracy and reliability of mineral identification are often limited by subjective human interpretation, non-ideal sample preparation, and the presence of mixed chemical signals generated within the electron-beam interaction volume. Machine learning has emerged as a powerful tool to overcome these problems. Here, we propose a machine-learning approach to identify unknown phases and unmix their overlapped chemical signals. This approach leverages the guidance of Gaussian mixture modeling clustering fitted on an informative latent space of pixel-wise elemental data points modeled using a neural network autoencoder, and unmixes the overlapped chemical signals of phases using non-negative matrix factorization. We evaluate the reliability and the accuracy of the new approach using two SEM-EDS data sets: a synthetic mixture sample and a real-world particulate matter sample. In the former, the proposed approach successfully identifies all major phases and extracts background-subtracted single-phase chemical signals. The unmixed chemical spectra show an average similarity of 83.0% with the ground truth spectra. In the second case, the approach demonstrates the ability to identify potentially magnetic Fe-bearing particles and their background-subtracted chemical signals. We demonstrate a flexible and adaptable approach that brings a significant improvement to mineralogical and chemical analysis in a fully automated manner. The proposed analysis process has been built into a user-friendly Python code with a graphical user interface for ease of use by general users.}
+  preview={deep-active-learning.png},
+  abstract={Inferring optimal solutions from limited data is considered the ultimate goal in scientific discovery. Artificial intelligence offers a promising avenue to greatly accelerate this process. Existing methods often depend on large datasets, strong assumptions about objective functions, and classic machine learning techniques, restricting their effectiveness to low-dimensional or data-rich problems. We present a deep active learning pipeline that combines deep neural networks with a novel tree search to find superior solutions in high-dimensional complex problems with non-cumulative objectives and limited data availability. Our pipeline iteratively approaches the optimum using a neural surrogate and introduces new search mechanisms to bypass the local optimum and minimize the number of samples needed to achieve superior solutions. These contributions enable our pipeline to achieve superior solutions across diverse problems with up to 2,000 dimensions, whereas existing methods are limited to 100 dimensions and require up to 10 times more data points. Our pipeline demonstrates wide applicability, discovering superior solutions in various domain science problems. This advancement enables data-efficient knowledge discovery and opens the path towards scalable self-driving laboratories. Although we focus on problems within the realm of scientific domain, the advancements achieved herein are applicable to a broader spectrum of challenges across all quantitative disciplines.}
 }
 
 @article{rao2022machine,
@@ -45,6 +29,22 @@
   abstract={High-entropy alloys are solid solutions of multiple principal elements that are capable of reaching composition and property regimes inaccessible for dilute materials. Discovering those with valuable properties, however, too often relies on serendipity, because thermodynamic alloy design rules alone often fail in high-dimensional composition spaces. We propose an active learning strategy to accelerate the design of high-entropy Invar alloys in a practically infinite compositional space based on very sparse data. Our approach works as a closed-loop, integrating machine learning with density-functional theory, thermodynamic calculations, and experiments. After processing and characterizing 17 new alloys out of millions of possible compositions, we identified two high-entropy Invar alloys with extremely low thermal expansion coefficients around 2 × 10−6 per degree kelvin at 300 kelvin. We believe this to be a suitable pathway for the fast and automated discovery of high-entropy alloys with optimal thermal, magnetic, and electrical properties.}
 }
 
+@article{tung2023sigma,
+  title={SIGMA: Spectral interpretation using gaussian mixtures and autoencoder},
+  author={Tung, Po-Yen and Sheikh, Hassan and Ball, Matthew and Nabiei, Farhang and Harrison, Richard},
+  journal={Geochemistry, Geophysics, Geosystems},
+  volume={24},
+  number={1}, 
+  pages={e2022GC010530},
+  year={2023},
+  publisher={Wiley Online Library},
+  html={https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022GC010530},
+  code={https://github.com/poyentung/sigma},
+  selected = {true},
+  preview={sigma-demo.gif},
+  abstract={Identification of unknown micro- and nano-sized mineral phases is commonly achieved by analyzing chemical maps generated from hyperspectral imaging data sets, particularly scanning electron microscope—energy dispersive X-ray spectroscopy (SEM-EDS). However, the accuracy and reliability of mineral identification are often limited by subjective human interpretation, non-ideal sample preparation, and the presence of mixed chemical signals generated within the electron-beam interaction volume. Machine learning has emerged as a powerful tool to overcome these problems. Here, we propose a machine-learning approach to identify unknown phases and unmix their overlapped chemical signals. This approach leverages the guidance of Gaussian mixture modeling clustering fitted on an informative latent space of pixel-wise elemental data points modeled using a neural network autoencoder, and unmixes the overlapped chemical signals of phases using non-negative matrix factorization. We evaluate the reliability and the accuracy of the new approach using two SEM-EDS data sets: a synthetic mixture sample and a real-world particulate matter sample. In the former, the proposed approach successfully identifies all major phases and extracts background-subtracted single-phase chemical signals. The unmixed chemical spectra show an average similarity of 83.0% with the ground truth spectra. In the second case, the approach demonstrates the ability to identify potentially magnetic Fe-bearing particles and their background-subtracted chemical signals. We demonstrate a flexible and adaptable approach that brings a significant improvement to mineralogical and chemical analysis in a fully automated manner. The proposed analysis process has been built into a user-friendly Python code with a graphical user interface for ease of use by general users.}
+}
+
 @article{Elishevah2024,
   abbr={Science Adv.},
   author = {Elishevah van Kooten  and Xuchao Zhao  and Ian Franchi  and Po-Yen Tung  and Simon Fairclough  and John Walmsley  and Isaac Onyett  and Martin Schiller  and Martin Bizzarro },
@@ -58,6 +58,22 @@
   html = {https://www.science.org/doi/abs/10.1126/sciadv.adp1613},
   preview={elishevah-work.jpg},
   abstract = {Knowledge of the nucleosynthetic isotope composition of the outermost protoplanetary disk is critical to understand the formation and early dynamical evolution of the Solar System. We report the discovery of outer disk material preserved in a pristine meteorite based on its chemical composition, organic-rich petrology, and 15N-rich, deuterium-rich, and 16O-poor isotope signatures. We infer that this outer disk material originated in the comet-forming region. The nucleosynthetic Fe, Mg, Si, and Cr compositions of this material reveal that, contrary to current belief, the isotope signature of the comet-forming region is ubiquitous among outer Solar System bodies, possibly reflecting an important planetary building block in the outer Solar System. This nucleosynthetic component represents fresh material added to the outer disk by late accretion streamers connected to the ambient molecular cloud. Our results show that most Solar System carbonaceous asteroids accreted material from the comet-forming region, a signature lacking in the terrestrial planet region. The cometary nucleosynthetic component is ubiquitous among outer Solar System asteroids and planets.}
+}
+
+@article{tung2025effects,
+  abbr={Mat. Charact.},
+  title = {Effects of ausforming on the microstructure and stability of blocky austenite in nanostructured bainite},
+  journal = {Materials Characterization},
+  volume = {221},
+  pages = {114792},
+  year = {2025},
+  issn = {1044-5803},
+  doi = {https://doi.org/10.1016/j.matchar.2025.114792},
+  url = {https://www.sciencedirect.com/science/article/pii/S1044580325000816},
+  author = {Po-Yen Tung* and Shao-Pu Tsai and Yu-Ting Tsai and Jer-Ren Yang},
+  preview={bainite.png},
+  keywords = {Nanostructured bainite, Ausforming, Cryogenic treatment, Coalesced bainite, Mechanical stabilisation, Crystallography},
+  abstract = {Nanostructured bainitic steels exhibit high strength and toughness. A potential approach to improving their toughness is enhancing the chemical or mechanical stability of blocky austenite while maintaining the volume fractions of austenite and bainitic ferrite. This study investigates the effects of ausforming at 250 °C with a 20 % strain on the microstructure and stability of blocky austenite and contrasts these effects with non-ausformed bainite. The stability of austenite is assessed by cryogenic treatments. Two types of bainitic ferrite are observed in ausformed bainite. The fine bainitic ferrite forms around austenite twins and has the Kurdjumov-Sachs (K-S) orientation relationship with austenite. In contrast, the coarse bainitic ferrite, which has the Nishiyama-Wassermann (N-W) orientation relationship, creates an interlocking microstructure where blocky austenite is refined and has a high dislocation density. The blocky austenite in the ausformed bainite remains untransformed after the cryogenic treatment, while some blocky austenite in non-ausformed bainite transforms into martensite. These results suggest that two types of bainitic ferrite may form via different mechanisms, and that the interlocking microstructure enhances mechanical stability of blocky austenite by dislocations and block size refinement.}
 }
 
 @article{tsai2024investigation,
