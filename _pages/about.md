@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I'm a Machine Learning Scientist at [MatNex](https://www.matnex.ai), where I collaborate with a brilliant team of scientists to develop AI-driven methods that accelerate materials discovery — all with the goal of enabling a net-zero future. I lead the development of our discovery pipeline, focusing on active learning strategies for efficient exploration.
+I'm a Machine Learning Scientist at [MatNex](https://www.matnex.ai), where I collaborate with a brilliant team of scientists to develop AI-driven methods that accelerate materials discovery — all with the goal of enabling a net-zero future. I drive the development of our discovery pipeline, focusing on active learning and reinforcement learning strategies for efficient exploration.
 
 Before this, I was a Postdoc at [Cambridge](https://www.cam.ac.uk) from 2021 to 2024. I had the pleasure of being affiliated with [Peterhouse](https://www.pet.cam.ac.uk/), the university’s oldest college — a place steeped in history and charm. I got my PhD in Materials Science at [Max Planck Instuitute](https://www.mpie.de/en) under the supervision of [Prof. Dirk Raabe](https://www.mpie.de/person/43164/2763408).
 
