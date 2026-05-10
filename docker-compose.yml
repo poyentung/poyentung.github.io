@@ -2,7 +2,7 @@
 # this file uses prebuilt image in dockerhub
 services:
   jekyll:
-    image: amirpourmand/al-folio:latest
+    image: amirpourmand/al-folio:v0.14.7
     build: .
     command: sh -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --watch --force_polling"
     ports:
@@ -10,5 +10,9 @@ services:
       - 35729:35729
     volumes:
       - .:/srv/jekyll
+      - jekyll_site:/srv/jekyll/_site
     environment:
       - JEKYLL_ENV=development
+
+volumes:
+  jekyll_site:
