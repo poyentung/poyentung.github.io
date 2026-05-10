@@ -1,13 +1,84 @@
 ---
 
+@article{tung2026discovering,
+  abbr      = {ICLR-AI4Mat},
+  title     = {Discovering out-of-distribution superconductors via reinforcement learning and model merging},
+  author    = {Tung*, Po-Yen and Gunn, David S. D. and Tomsett, Richard and Markanday, Jonathon Frederick Shiv and Forrest, Robert M. and Bean, Jonathan},
+  annotation= {* corresponding},
+  journal   = {ICLR 2026 Workshop on AI for Materials (AI4Mat)},
+  year      = {2026},
+  html      = {https://openreview.net/forum?id=Ac24KyyfyP},
+  selected  = {true},
+  preview   = {tc_dist.png},
+  abstract  = {Inverse design of superconducting materials requires generative models that can optimize functional properties without collapsing to narrow regions of known chemistry. We study this problem using diffusion-based generative models fine-tuned via reinforcement learning (RL) with surrogate feedback, where a graph neural network predictor of superconducting critical temperature ($T_c$) provides the reward signal. Compared with classifier-free guidance (CFG), RL increases the average surrogate-predicted $T_c$ from 10 K to 17 K. To address diversity collapse during feedback-based optimization, we further merge independently fine-tuned models, which increases the fraction of unique chemical systems by over 7\% relative to single-model fine-tuning. We quantify exploration using a calibrated out-of-distribution metric, OOD@$\alpha$, and find that the merged RL model generates $>$92\% of samples beyond the 95th percentile of the calibration distribution (OOD@0.05) vs.\ 21\% for CFG-based baselines. This increased exploration does not degrade structural validity, with S.U.N. (stable, unique, and novel) rates improving from 0.19 under CFG to 0.57 under RL. We further validate 198 selected RL-generated candidates using first-principles electron-phonon Wannier (EPW) calculations. Although surrogate and EPW $T_c$ predictions show weak pointwise agreement on this OOD set, the EPW-computed $T_c$ distribution is shifted upward relative to the training data ($13.87 \pm 4.56$ K), showing that RL increases the yield of OOD candidates enriched for higher independently computed EPW $T_c$. Overall, RL combined with model merging provides a practical framework for generating physically plausible, diverse, and OOD superconductor candidates, while first-principles validation remains necessary for final quantitative ranking.}
+}
+
+@article{liu2025learning,
+  abbr={Cell Reports Phy. Sci.},
+  title={Learning crystallographic orientations from electron backscatter diffraction patterns using computer vision and machine learning},
+  author={Yu-Chun Liu and Chang-Kai Yeh and Shao-Pu Tsai and Po-Yen Tung*},
+  annotation={* corresponding},
+  journal={Cell Reports Physical Science},
+  year={2025},
+  publisher={Cell Press},
+  preview={fx1_lrg.jpg},
+  html={https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(25)00470-9},
+  abstract = {Electron backscatter diffraction (EBSD) is essential for crystallographic orientation analysis and phase identification. While existing EBSD indexing methods—such as Hough-transform-based indexing (HI) and dictionary indexing (DI)—have proven effective, they face trade-offs between accuracy and computational cost. We introduce Latice (latent-space autoencoder for template indexing of crystallographic EBSD), a variational autoencoder (VAE)-based approach that learns compact, physically meaningful representations of EBSD patterns. Once trained, Latice encodes patterns into a 16-dimensional latent space, achieving approximately 99.9% data compression while preserving rotational symmetries and crystallographic features. Applied to experimental patterns from recrystallized 316L stainless steel, Latice achieves a 7.5-fold indexing speedup over DI with a mean disorientation below compared to DI. Although performance near grain boundaries requires improvement, the method offers significant advantages in indexing efficiency and storage requirements. These results underscore the potential of physics-informed machine learning models for advancing EBSD analysis and broader crystallographic applications.}
+}
+
+@article{Harrison2025,
+  abbr={Nature Comm. E. \& E.},
+  author = {Harrison, Richard J. and Neethirajan, Jeffrey and Pei, Zhaowen and Xue, Pengfei and Marcano, Lourdes and Abrudan, Radu and Ringe, Emilie and Tung, Po-Yen and Kuppili, Venkata S. C. and Kaulich, Burkhard and Daurer, Benedikt J. and Hurtarte, Luis Carlos Colocho and Kazemian, Majid and Chang, Liao and Donnelly, Claire and Valencia, Sergio},
+  title = {Magnetic vector tomography reveals giant magnetofossils are optimised for magnetointensity reception},
+  journal = {Communications Earth \& Environment},
+  year = {2025},
+  volume = {6},
+  number = {1},
+  pages = {810},
+  preview = {43247_2025_2721_MOESM6_ESM.gif},
+  html = {https://www.nature.com/articles/s43247-025-02721-3}
+}
+
+@article{https://doi.org/10.1029/2025JH000751,
+abbr={JGR: ML \& Comp.},
+author = {Toth, Norbert and Shi, Sarah and Maclennan, John and Tung, Po-Yen},
+title = {EDS Analysis for Petrology: A Probabilistic Framework With GPyEDS},
+journal = {Journal of Geophysical Research: Machine Learning and Computation},
+volume = {2},
+number = {4},
+pages = {e2025JH000751},
+keywords = {microscopy, igneous, machine learning, chemical mapping, Gaussian processes, segmentation},
+html = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025JH000751},
+abstract = {Abstract Microtextural and chemical data from minerals in igneous rocks are critical for unpacking and developing understanding of processes in magmatic systems. Recent advancements leveraging unsupervised machine learning methods offer novel approaches for phase classification without requiring prior knowledge of phases or chemistry. The present work expands on these methods through a probabilistic framework to enable a high-throughput approach, which can result in significant improvements in segmentation of noisy EDS data collected during SEM mapping of rock specimens. We demonstrate that linear matrix decomposition methods, such as principal component analysis (PCA), can be applied to examine the chemical zonation of mineral phases without prior knowledge of their chemistry. To calibrate phase chemistry, we introduce a Bayesian Markov Chain Monte Carlo (MCMC) approach that scales high spatial resolution energy dispersive spectroscopy (EDS) data to high precision and accuracy electron probe microanalysis (EPMA) profiles. We use this technique to derive high quality and reproducible chemical data sets across large spatial fields. The proposed method couples textural and chemical observations that allow petrologists to better interpret magmatic systems and understand crustal processes.},
+year = {2025},
+preview={jgr170135-fig-0009-m.jpg}
+}
+
+@article{XU2026135,
+title = {Antimony coprecipitation suppresses microbial reduction of goethite and hematite and limits Sb release across particle sizes},
+abbr = {Geo. Cosmo. Acta},
+journal = {Geochimica et Cosmochimica Acta},
+volume = {417},
+pages = {135-149},
+year = {2026},
+issn = {0016-7037},
+html = {https://www.sciencedirect.com/science/article/pii/S0016703726000475},
+author = {Xiyang Xu and Prachi Joshi and Kerstin Hockmann and Carolin L. Dreher and Valerie A. Schoepfer and Po-Yen Tung and John C. Walmsley and Andreas Kappler and Muammar Mansor},
+preview = {1-s2.0-S0016703726000475-gr3_lrg.jpg},
+abstract = {Antimony (Sb) is a toxic environmental contaminant, whose environmental behaviour is tightly linked to sorption or co-precipitation reactions with iron(III) (oxyhydr)oxides. These nanoparticulate minerals are susceptible to reductive dissolution via the activity of dissimilatory Fe(III)-reducing microorganisms (DIRB), thereby potentially mobilizing associated Sb. However, the impacts of Sb (generally in the form of Sb(V)) associated with iron(III) (oxyhydr)oxides of different particle sizes on microbial Fe(III) reduction, as well as on subsequent Sb speciation and distribution, remain poorly understood. In this study, we synthesized Sb(V)-containing goethite and hematite of varying particle sizes and characterized them using micro X-ray diffraction (µ-XRD), scanning/transmission electron microscopy (S/TEM), 57Fe Mössbauer spectroscopy, extended X-ray absorption fine structure (EXAFS) spectroscopy, and wet chemical extractions. We then examined their reductive dissolution by Shewanella oneidensis MR-1. Our findings reveal that (i) Sb(V) was incorporated into nanoscale iron(III) (oxyhydr)oxides to varying extents (Sb: Fe ratios ranging from 2:100 to 8:100), with no clear correlation between the extent of coprecipitation and mineral type or particle size. (ii) The presence of Sb(V) significantly inhibited both the extent and kinetics of microbial Fe(III) reduction across all samples of varying particle sizes, with suppression extent ranging from 25 to 80%. (iii) Sb release was limited (<10% of total Sb for goethite and <4% of total Sb for hematite), exhibited incongruence with the reductive dissolution of Fe, and showed only negligible Sb(V) reduction to Sb(III) across all sample conditions. These collective results indicate that the incorporation of Sb(V) into goethite and hematite may enhance the stability of these iron(III) (oxyhydr)oxides and serve as an effective sink for Sb immobilization. This stabilization persists even under reducing conditions, highlighting the potential for long-term Sb sequestration in Fe-rich environments.}
+}
+
 @article{wei2024deep,
-  abbr={Under Review},
+  abbr={Nature Comp. Sci.},
   title={Deep active learning for complex systems},
-  author={Wei*, Ye and Peng*, Bo and Xie*, Ruiwen and Chen*, Yangtao and Qin*, Yu and Wen*, Peng and Bauer*, Stefan and Tung*, Po-Yen and Raabe, Dierk},
-  journal={Under review in Nature Computational Science},
-  year={2024},
+  author={Wei, Ye and Peng, Bo and Xie, Ruiwen and Chen, Yangtao and Qin, Yu and Wen, Peng and Bauer, Stefan and Tung*, Po-Yen and Raabe, Dierk},
+  journal={Nature Computational Science},
+  volume = {5},
+  number = {9},
+  pages = {801--812},
+  year = {2025},
   annotation={* Equally contributed},
-  html={https://www.researchsquare.com/article/rs-5434645/v1},
+  html={https://doi.org/10.1038/s43588-025-00858-x},
   selected = {true},
   preview={deep-active-learning.png},
   abstract={Inferring optimal solutions from limited data is considered the ultimate goal in scientific discovery. Artificial intelligence offers a promising avenue to greatly accelerate this process. Existing methods often depend on large datasets, strong assumptions about objective functions, and classic machine learning techniques, restricting their effectiveness to low-dimensional or data-rich problems. We present a deep active learning pipeline that combines deep neural networks with a novel tree search to find superior solutions in high-dimensional complex problems with non-cumulative objectives and limited data availability. Our pipeline iteratively approaches the optimum using a neural surrogate and introduces new search mechanisms to bypass the local optimum and minimize the number of samples needed to achieve superior solutions. These contributions enable our pipeline to achieve superior solutions across diverse problems with up to 2,000 dimensions, whereas existing methods are limited to 100 dimensions and require up to 10 times more data points. Our pipeline demonstrates wide applicability, discovering superior solutions in various domain science problems. This advancement enables data-efficient knowledge discovery and opens the path towards scalable self-driving laboratories. Although we focus on problems within the realm of scientific domain, the advancements achieved herein are applicable to a broader spectrum of challenges across all quantitative disciplines.}
@@ -39,14 +110,15 @@
   year = {2025},
   issn = {2949-8228},
   doi = {https://doi.org/10.1016/j.nxmate.2025.100663},
-  url = {https://www.sciencedirect.com/science/article/pii/S2949822825001819},
+  html = {https://www.sciencedirect.com/science/article/pii/S2949822825001819},
   keywords = {Few-shot learning, Segment Anything Model (SAM), 3D tomographic datasets, Microstructure segmentation, Machine learning in materials science, High-resolution imaging analysis},
-  selected = {true},
+  selected = {false},
   preview={3d_visualisation.gif},
   abstract = {The application of three-dimensional (3D) imaging techniques, such as X-ray tomography and focussed ion beam scanning electron microscopy (FIB-SEM), is increasingly widespread in microstructural analysis of natural materials. However, our ability to collect high-resolution tomographic datasets, each comprising thousands of two-dimensional (2D) images with millions of pixels, far outstrips our ability to analyse them. Pixel-level segmentation of each 2D image is the first step in any analysis pipeline, but creates a considerable human bottleneck in the workflow that can now be overcome using machine learning. Although advanced pre-trained models such as the Segment Anything Model (SAM) have emerged, conventional segmentation workflows for 3D tomographic data remain limited in comparison. To tackle this, we propose a machine learning workflow that combines SAM with a few-shot learning framework, automating segmentation and minimising user bias. Using SAM, we generate precise annotations from a limited subset of 2D images through basic input prompts, such as points and boxes. These annotations serve as the training data for the few-shot learning model. We benchmark this workflow using a complex 3D FIB-SEM tomographic dataset of the C2 ungrouped carbonaceous chondrite WIS91600. With only 0.6 % of the training data, our method achieves an intersection over union (IoU) score of 80.62 % compared to the ground truth, significantly outperforming widely used methods that achieve a maximum IoU score of 67.07 %. The strong performance on the challenging meteorite dataset highlights its potential for broader application across materials and imaging modalities.}
 }
 
 @article{tung2023sigma,
+  abbr = {G. cubed},
   title={SIGMA: Spectral interpretation using gaussian mixtures and autoencoder},
   author={Tung*, Po-Yen and Sheikh, Hassan and Ball, Matthew and Nabiei, Farhang and Harrison, Richard},
   journal={Geochemistry, Geophysics, Geosystems},
@@ -57,7 +129,7 @@
   publisher={Wiley Online Library},
   html={https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022GC010530},
   code={https://github.com/poyentung/sigma},
-  selected = {true},
+  selected = {false},
   preview={sigma-demo.gif},
   abstract={Identification of unknown micro- and nano-sized mineral phases is commonly achieved by analyzing chemical maps generated from hyperspectral imaging data sets, particularly scanning electron microscope—energy dispersive X-ray spectroscopy (SEM-EDS). However, the accuracy and reliability of mineral identification are often limited by subjective human interpretation, non-ideal sample preparation, and the presence of mixed chemical signals generated within the electron-beam interaction volume. Machine learning has emerged as a powerful tool to overcome these problems. Here, we propose a machine-learning approach to identify unknown phases and unmix their overlapped chemical signals. This approach leverages the guidance of Gaussian mixture modeling clustering fitted on an informative latent space of pixel-wise elemental data points modeled using a neural network autoencoder, and unmixes the overlapped chemical signals of phases using non-negative matrix factorization. We evaluate the reliability and the accuracy of the new approach using two SEM-EDS data sets: a synthetic mixture sample and a real-world particulate matter sample. In the former, the proposed approach successfully identifies all major phases and extracts background-subtracted single-phase chemical signals. The unmixed chemical spectra show an average similarity of 83.0% with the ground truth spectra. In the second case, the approach demonstrates the ability to identify potentially magnetic Fe-bearing particles and their background-subtracted chemical signals. We demonstrate a flexible and adaptable approach that brings a significant improvement to mineralogical and chemical analysis in a fully automated manner. The proposed analysis process has been built into a user-friendly Python code with a graphical user interface for ease of use by general users.}
 }
@@ -86,7 +158,7 @@
   year = {2025},
   issn = {1044-5803},
   doi = {https://doi.org/10.1016/j.matchar.2025.114792},
-  url = {https://www.sciencedirect.com/science/article/pii/S1044580325000816},
+  html = {https://www.sciencedirect.com/science/article/pii/S1044580325000816},
   author = {Po-Yen Tung* and Shao-Pu Tsai and Yu-Ting Tsai and Jer-Ren Yang},
   preview={bainite.png},
   keywords = {Nanostructured bainite, Ausforming, Cryogenic treatment, Coalesced bainite, Mechanical stabilisation, Crystallography},
@@ -94,6 +166,7 @@
 }
 
 @article{tsai2024investigation,
+  abbr = {JMRT},
   title={Investigation of high-temperature deformation behaviours of a low-carbon containing duplex stainless steel},
   author={Tsai, Shao-Pu and Hong, Ming-Tai and Lin, Wei-Hsun and Lu, Ssu-Yun and Jiang, Yun-Rong and Lin, Te-Wei and Tung, Po-Yen},
   journal={Journal of Materials Research and Technology},
@@ -107,6 +180,7 @@
 }
 
 @article{sheikh2023efficacy,
+  abbr = {Sci. Total Env.},
   title={Efficacy of green infrastructure in reducing exposure to local, traffic-related sources of airborne particulate matter (PM)},
   author={Sheikh, Hassan Aftab and Maher, Barbara A and Woods, Andy W and Tung, Po-Yen and Harrison, Richard J},
   journal={Science of the Total Environment},
@@ -114,11 +188,13 @@
   pages={166598},
   year={2023},
   publisher={Elsevier},
+  preview = {1-s2.0-S0048969723052233-ga1.jpg},
   html={https://www.sciencedirect.com/science/article/pii/S0048969723052233},
   abstract={One aim of roadside green infrastructure (GI) is to mitigate exposure to local, traffic-generated pollutants. Here, we determine the efficacy of roadside GI in improving local air quality through the deposition and/or dispersion of airborne particulate matter (PM). PM was collected on both pumped air filters and on the leaves of a recently installed ‘tredge’ (trees managed as a head-high hedge) at an open road environment next to a primary school in Manchester, U.K. The magnetic properties of PM deposited on leaves and filters (size fractions PM10 and PM2.5) were deduced from hysteresis loops, first-order reversal curves (FORCs), and low-temperature remanence measurements. These were complemented with electron microscopy to identify changes in magnetic PM concentration downwind of the tredge/GI. We show that the tredge is permeable to airflow using a simple CO2 tracer experiment; hence, it allows interception and subsequent deposition of PM on its leaves. Magnetic loadings per m3 of air from filters (PM10 saturation magnetisation, Ms, at 5 K) were reduced by 40 % behind the tredge and a further 63 % in the playground; a total reduction of 78 % compared to roadside air. For the PM2.5 fraction, the reduction in magnetic loading behind the tredge was remarkable (82 %), reflecting efficient diffusional capture of sub-5 nm Fe-oxide particles by the tredge. Some direct mixing of roadside and playground air occurs at the back of the playground, caused by air flow over, and/or through gaps in, the slowly-permeable tredge. The magnetic loading on tredge leaves increased over successive days, capturing ~23 % of local, traffic-derived PM10. Using a heuristic two-dimensional turbulent mixing model, we assess the limited dispersion of PM < 22.5 μm induced by eddies in the tredge wake. This study demonstrates that PM deposition on leaves reduces exposure significantly in this school playground setting; hence, providing a cost-effective mitigation strategy.}
 }
 
 @article{sheikh2022magnetic,
+  abbr = {Sci. Report},
   title={Magnetic and microscopic investigation of airborne iron oxide nanoparticles in the London Underground},
   author={Sheikh, HA and Tung, Po-Yen and Ringe, Emilie and Harrison, RJ},
   journal={Scientific Reports},
@@ -128,22 +204,27 @@
   year={2022},
   publisher={Nature Publishing Group UK London},
   html={https://www.nature.com/articles/s41598-022-24679-4},
+  preview = {hassan_london_underground.png},
   abstract={Particulate matter (PM) concentration levels in the London Underground (LU) are higher than London background levels and beyond World Health Organization (WHO) defined limits. Wheel, track, and brake abrasion are the primary sources of particulate matter, producing predominantly Fe-rich particles that make the LU microenvironment particularly well suited to study using environmental magnetism. Here we combine magnetic properties, high-resolution electron microscopy, and electron tomography to characterize the structure, chemistry, and morphometric properties of LU particles in three dimensions with nanoscale resolution. Our findings show that LU PM is dominated by 5–500 nm particles of maghemite, occurring as 0.1–2 μm aggregated clusters, skewing the size-fractioned concentration of PM artificially to larger sizes when measured with traditional monitors. Magnetic properties are largely independent of the PM filter size (PM10, PM4, and PM2.5), and demonstrate the presence of superparamagnetic (< 30 nm), single-domain (30–70 nm), and vortex/pseudo-single domain (70–700 nm) signals only (i.e., no multi-domain particles > 1 µm). The oxidized nature of the particles suggests that PM exposure in the LU is dominated by resuspension of aged dust particles relative to freshly abraded, metallic particles from the wheel/track/brake system, suggesting that periodic removal of accumulated dust from underground tunnels might provide a cost-effective strategy for reducing exposure. The abundance of ultrafine particles identified here could have particularly adverse health impacts as their smaller size makes it possible to pass from lungs to the blood stream. Magnetic methods are shown to provide an accurate assessment of ultrafine PM characteristics, providing a robust route to monitoring, and potentially mitigating this hazard.}
 }
 
 @article{tung2022formation,
+  abbr = {Materialia},
   title={Formation mechanism of brown etching layers in pearlitic rail steel},
-  author={Tung, Po-Yen and Zhou, Xuyang and Morsdorf, Lutz and Herbig, Michael},
+  author={Tung*, Po-Yen and Zhou, Xuyang and Morsdorf, Lutz and Herbig, Michael},
   journal={Materialia},
   volume={26},
   pages={101625},
   year={2022},
+  annotation={* corresponding},
   publisher={Elsevier},
+  preview = {1-s2.0-S2589152922003064-gr3.jpg},
   html={https://www.sciencedirect.com/science/article/pii/S2589152922003064},
   abstract={The formation of White Etching Layers (WELs) in rails can lead to the initiation of microcracks, thus reducing the service time of rails. However, the WEL formation mechanism is not yet understood. Brown Etching Layers (BELs) are the intermediate microstructure located between parent pearlite and WEL. In this work, we use BELs as a microstructural tracer to understand the early stages of WEL formation. We study the formation mechanisms of BELs in an industrial R350HT rail steel retrieved from a service application. Atom probe tomography, complementary transmission electron microscopy, and transmission Kikuchi diffraction provide us access to high resolution microstructure characterization. Carbon-depleted cementite lamellae are sheared and cut by dislocations. Several BEL areas with cementite particles exist in the direct vicinity of parent pearlite. Energy dispersive X-ray spectroscopy reveals redistribution of carbon and inhomogeneous distribution of manganese in BEL areas. These results suggest a correlation between cementite decomposition and the formation of BEL. Deformation-induced cementite decomposition causes local alterations in the microstructure regarding defect density and carbon composition, leading to austenite formation in the parent pearlite aided by the temperature ingress during rail/wheel contacts.}
 }
 
 @article{kiranbabu2022cementite,
+  abbr = {Mat. Sci. \& Eng.},
   title={Cementite decomposition in 100Cr6 bearing steel during high-pressure torsion: Influence of precipitate composition, size, morphology and matrix hardness},
   author={Kiranbabu, S and Tung, Po-Yen and Sreekala, Lekshmi and Prithiv, Thoudden Sukumar and Hickel, Tilmann and Pippan, Reinhard and Morsdorf, Lutz and Herbig, Michael},
   journal={Materials Science and Engineering: A},
@@ -151,11 +232,13 @@
   pages={142372},
   year={2022},
   publisher={Elsevier},
-  html={https://www.sciencedirect.com/science/article/pii/S0921509321016361?casa_token=3otcas8ES_UAAAAA:g6UO7zDi2BvhDrcMpZfQsSZeNzLjkIrF1s5-3rLBG6cjHDuE2DpPSmB8nXVHht1DddHeLZRWdg},
+  preview = {1-s2.0-S0921509321016361-ga1.jpg},
+  html={https://www.sciencedirect.com/science/article/abs/pii/S0921509321016361},
   abstract={Premature failure of rail and bearing steels by White-Etching-Cracks leads to severe economic losses. This failure mechanism is associated with microstructure decomposition via local severe plastic deformation. The decomposition of cementite plays a key role. Due to the high hardness of this phase, it is the most difficult obstacle to overcome in the decaying microstructure. Understanding the mechanisms of carbide decomposition is essential for designing damage-resistant steels for industrial applications. We investigate cementite decomposition in the bearing steel 100Cr6 (AISI 52100) upon exposure to high-pressure torsion (maximum shear strain, Ƴmax = 50.2). Following-up on our earlier work on cementite decomposition in hardened 100Cr6 steel (Qin et al., Act. Mater. 2020 [1]), we now apply a modified heat treatment to generate a soft-annealed microstructure where spherical and lamellar cementite precipitates are embedded in a ferritic matrix. These two precipitate types differ in morphology (spherical vs. lamellar), size (spherical: 100–1000 nm diameter, lamellar: 40–100 nm thickness) and composition (Cr and Mn partitioning). We unravel the correlation between cementite type and its resistance to decomposition using multi-scale chemical and structural characterization techniques. Upon high-pressure torsion, the spherical cementite precipitates did not decompose, but the larger spherical precipitates (≥ 1 μm) deformed. In contrast, the lamellar cementite precipitates underwent thinning followed by decomposition and dissolution. Moreover, the decomposition behavior of cementite precipitates is affected by the type of matrix microstructure. We conclude that the cementite size and morphology, as well as the matrix mechanical properties are the predominating factors influencing the decomposition behavior of cementite. The compositional effects of Cr and Mn on cementite stability calculated by complementary density functional theory (DFT) calculations are minor in the current scenario.}
 }
 
 @article{tung2021under,
+  abbr = {Acta Mat.},
   title={Under-stoichiometric cementite in decomposing binary Fe-C pearlite exposed to rolling contact fatigue},
   author={Tung, Po-Yen and Zhou, Xuyang and Mayweg, David and Morsdorf, Lutz and Herbig, Michael},
   journal={Acta Materialia},
@@ -163,11 +246,13 @@
   pages={117144},
   year={2021},
   publisher={Elsevier},
-  html={https://www.sciencedirect.com/science/article/pii/S1359645421005243?casa_token=WRloYnKWERAAAAAA:o-PcCdRB3A2aleQL0koyRv5TQ1_NFc90Eg7JFEyp6yEi5UNfZNOhrXJfrDWzmup8pw1s_XJkGQ},
+  preview={1-s2.0-S1359645421005243-ga1.jpg},
+  html={https://www.sciencedirect.com/science/article/abs/pii/S1359645421005243},
   abstract={In this study, we investigate the fundamentals of deformation-driven cementite decomposition during rolling contact fatigue in a binary Fe-0.74C (wt.%) steel with pearlitic microstructure. To reveal the involved nano-scale mechanisms, we apply transmission electron microscopy and atom probe tomography, as well as the combination of both techniques on the same probe volume for correlative structural and chemical analysis. After ~32,500 individual ball contacts under a nominal Hertzian contact stress of ~1,250 MPa, cementite lamellae are consistently depleted in carbon (C) down to ~20 at.%, which is a reduction of 20% in comparison to the original stoichiometric composition of 25 at.% before deformation. By electron diffraction on atom probe tip volumes, we show that this under-stoichiometric cementite still maintains its crystal structure. The potential effect of temperature increase during rolling contact fatigue on cementite decomposition is addressed by carrying out annealing experiments at 150°C and 250°C for 30 minutes after rolling contact fatigue. Our results show that slip transmission across cementite lamellae is primarily responsible for the observed C-depletion in cementite. We quantitatively discuss slip transmission from ferrite to cementite using slip trace analysis and correlate the amount of slip activity with the observed C-depletion. In this way, we explain the formation of under-stoichiometric cementite by combined slip transmission and solute drag by dislocations, where C is transported out of cementite by dislocation gliding through cementite lamellae. Only afterward, cementite decomposition in terms of phase dissolution is suggested to occur by the dislocation-shuffle mechanism.}
 }
 
 @article{tung2021role,
+  abbr = {Phil. Mag.},
   title={The role of electric current in the formation of white-etching-cracks},
   author={Tung, P-Y and McEniry, Eunan and Herbig, Michael},
   journal={Philosophical Magazine},
@@ -176,11 +261,13 @@
   pages={59--76},
   year={2021},
   publisher={Taylor \& Francis},
+  preview = {tphm_a_1819578_f0002_oc.jpg},
   html={https://www.tandfonline.com/doi/full/10.1080/14786435.2020.1819578},
   abstract={Material failure by white-etching-cracks (WECs) can cause enormous economic costs. The formation of WECs emerges from the decomposition of the original, usually cementite-containing, microstructure. As small amounts of electric current can trigger this failure mechanism, we investigate the contribution of electric current to cementite decomposition. We applied ∼700 A/cm2 for two weeks at 60°C to a pearlitic Fe-0.74C (wt%) specimen. The comparison of the microstructure before and after showed no differences. Theoretical considerations support the conclusion that at this low temperature such electric current densities cannot directly cause cementite decomposition. Electric current could play an indirect role in the formation of WECs, however, by generating hydrogen from the lubricant which is known to accelerate WECs formation.}
 }
 
 @article{qin2020mechanism,
+  abbr = {Acta Mat.},
   title={Mechanism of cementite decomposition in 100Cr6 bearing steels during high pressure torsion},
   author={Qin, Yu and Mayweg, David and Tung, Po-Yen and Pippan, Reinhard and Herbig, Michael},
   journal={Acta Materialia},
@@ -188,7 +275,8 @@
   pages={79--93},
   year={2020},
   publisher={Elsevier},
-  html={https://www.sciencedirect.com/science/article/pii/S1359645420307631?casa_token=XsCM3VIGKzcAAAAA:WiYdnZPV6vQYIdrsns0G6DLYsH-_YEuweg2JfTI0gHeHAsmIy6OZb3aU7qpqzSCXWyx60iE4FA},
+  preview = {1-s2.0-S1359645420307631-fx1.jpg},
+  html={https://www.sciencedirect.com/science/article/abs/pii/S1359645420307631},
   abstract={Severe plastic deformation leads to cementite decomposition in pearlitic and martensitic alloys, resulting in high-strength nanocrystalline ferrite. This effect can be employed to strengthen pearlitic wires but it can also be associated with material failure by white etching cracks (WECs) that are primarily known to concern bearings or rails. We investigate the decomposition of spheroidal cementite in the martensitic bearing steel 100Cr6 with 62 Rockwell hardness during high pressure torsion at 9.5 GPa applied pressure. The hard martensitic matrix and the even harder spheroidal cementite precipitates behave plastically very differently. The enforced macroscopic plastic deformation is almost entirely carried by the matrix. Plastic material flow of the matrix around the spheroidal cementite leads to wear of the spheroidal cementite as indicated by continuously increasing levels of chromium in the matrix. Plastic deformation of spheroidal cementite via dislocation gliding supposedly accelerates this process as slip steps generated thereby are preferential sites of wear at the matrix/cementite interface. Larger spheroidal cementite precipitates are more prone to plastic deformation and to decomposition than smaller ones. The mechanism likely holds true in general for multiphase materials with large strain difference between phases subjected to high pressure torsion. Although the formation of WECs in 100Cr6 bearings might be slowed down by reducing the size of the spheroidal cementite precipitates, it is unlikely that this could entirely prevent this failure mechanism.}
 }
 

@@ -9,6 +9,8 @@ nav_order: 3
 
 ## Conference and seminar presentations
 
+- Spotlight talk and panel discussion at <a href="https://sites.google.com/view/ai4mat/schedule">AI4Mat Workshop, ICLR 2026</a>, Singapore, May 2026
+
 - Invited tutorial session at <a href="https://qd-uki.co.uk/nanomegas-workshop-2024/">NanoMEGAS Workshop 2024</a>, Materials Department, University of Cambridge – Advanced Applications with open source codes from Cambridge, 5th Jun. 2024
 
 - Invited talk at <a href="https://mse.site.nthu.edu.tw/?Lang=en">Department of Materials Science</a>, National Tsing Hua University, Taiwan, 29th Feb. 2024
