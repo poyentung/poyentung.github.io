@@ -6,7 +6,7 @@ subtitle: "Generative Models, RL, and Agentic Systems for Materials Discovery"
 
 profile:
   align: right
-  image: poyentung.jpg
+  image: profile.mp4
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
